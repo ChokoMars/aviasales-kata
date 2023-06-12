@@ -1,0 +1,15 @@
+@import 'src/variable';
+
+.warning_msg {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  padding: 15px 10px 15px 50px;
+  color: #9f6000;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  background-color: white;
+  background-image: url('https://i.imgur.com/Z8q7ww7.png');
+  border-radius: $card-br-radius;
+  box-shadow: $obj-shadow;
+}
