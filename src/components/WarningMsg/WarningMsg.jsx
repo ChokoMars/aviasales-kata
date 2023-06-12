@@ -1,9 +1,7 @@
-import React from 'react';
+import React from 'react'
 
-import styles from './WarningMsg.module.scss';
+import styles from './WarningMsg.module.scss'
 
-const WarningMsg = () => (
-  <div className={styles.warning_msg}>Не найдено рейсов, удовлетворяющих заданным условиям.</div>
-);
+const WarningMsg = () => <div className={styles.warning_msg}>Рейсов, подходящих под заданные фильтры, не найдено.</div>
 
-export default WarningMsg;
+export default WarningMsg
